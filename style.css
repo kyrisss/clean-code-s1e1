@@ -114,7 +114,8 @@ label[for="new-task"] {
 
 /* Task list */
 
-.todo-tasks__normal-mode {
+.todo-tasks__normal-mode,
+.todo-tasks__edit-mode {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -139,7 +140,7 @@ label[for="new-task"] {
 }
 
 .todo-tasks__normal-mode > input[type="text"] {
-    width: 226px;
+    display: none;
 }
 
 .button_delete img {
